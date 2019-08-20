@@ -1,5 +1,5 @@
 {
-  "API_URL": "https://ccip.opass.app/",
-  "configURL": "",
+  "API_URL": "https://hitcon.opass.app/",
+  "configURL": "https://bingo.hitcon.tw/config.json",
   "defaultMode": "bingo"
 }

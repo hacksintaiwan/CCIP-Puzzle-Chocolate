@@ -8,11 +8,12 @@ branches:
 before_deploy:
   - yarn build
   - ./build-config.sh
+  - cp config.json dist/
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  fqdn: puzzle.sitcon.party
+  fqdn: bingo.hitcon.tw
   local_dir: dist/
   on:
     branch: master
