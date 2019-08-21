@@ -8,7 +8,6 @@ branches:
 before_deploy:
   - yarn build
   - ./build-config.sh
-  - cp config.json dist/
 deploy:
   provider: pages
   skip_cleanup: true
